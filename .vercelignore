@@ -1,0 +1,4 @@
+# Ignore git directory
+.git
+
+# Do NOT ignore .well-known (it's included by default when not in .vercelignore)
