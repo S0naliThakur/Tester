@@ -6,10 +6,9 @@
     ],
     "target": {
       "namespace": "android_app",
-      "package_name": "com.ogfun.ogfun",
+      "package_name": "fun.sikka.app",
       "sha256_cert_fingerprints": [
-        "D8:40:B0:27:0A:9F:DB:E8:45:79:2E:6B:07:9D:FC:BE:C8:6F:C1:4B:1F:52:14:55:9D:D1:AC:A2:A4:B9:F1:43",
-        "96:82:F8:A7:1C:73:73:AA:1A:99:6E:33:CC:9B:A4:A5:53:2B:B4:06:D8:50:2E:DC:45:5C:26:4C:C8:AA:0F:B9"
+        "D8:40:B0:27:0A:9F:DB:E8:45:79:2E:6B:07:9D:FC:BE:C8:6F:C1:4B:1F:52:14:55:9D:D1:AC:A2:A4:B9:F1:43"
       ]
     }
   },
@@ -22,8 +21,20 @@
       "namespace": "android_app",
       "package_name": "com.sikkafun.app",
       "sha256_cert_fingerprints": [
-        "D8:40:B0:27:0A:9F:DB:E8:45:79:2E:6B:07:9D:FC:BE:C8:6F:C1:4B:1F:52:14:55:9D:D1:AC:A2:A4:B9:F1:43",
-        "96:82:F8:A7:1C:73:73:AA:1A:99:6E:33:CC:9B:A4:A5:53:2B:B4:06:D8:50:2E:DC:45:5C:26:4C:C8:AA:0F:B9"
+        "D8:40:B0:27:0A:9F:DB:E8:45:79:2E:6B:07:9D:FC:BE:C8:6F:C1:4B:1F:52:14:55:9D:D1:AC:A2:A4:B9:F1:43"
+      ]
+    }
+  },
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls",
+      "delegate_permission/common.get_login_creds"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.ogfun.ogfun",
+      "sha256_cert_fingerprints": [
+        "D8:40:B0:27:0A:9F:DB:E8:45:79:2E:6B:07:9D:FC:BE:C8:6F:C1:4B:1F:52:14:55:9D:D1:AC:A2:A4:B9:F1:43"
       ]
     }
   }
